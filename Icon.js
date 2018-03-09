@@ -4,9 +4,9 @@ import {
     Image,
     StyleSheet,
     View,
-    ViewPropTypes,
+    ViewPropTypes
 } from 'react-native';
-import PropTypes from 'proptypes';
+import PropTypes from 'prop-types';
 
 export default class Icon extends Component {
     static propTypes = {
@@ -24,8 +24,14 @@ export default class Icon extends Component {
             source = this.props.source;
         } else if (this.props.name) {
             switch (this.props.name) {
+                case 'empty':
+                    source = require('./ActionBarImages/empty.png');
+                    break;
                 case 'back':
                     source = require('./ActionBarImages/back.png');
+                    break;
+                case 'refresh':
+                    source = require('./ActionBarImages/refresh.png');
                     break;
                 case 'flag':
                     source = require('./ActionBarImages/flag.png');

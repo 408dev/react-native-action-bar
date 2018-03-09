@@ -4,7 +4,7 @@ import {
     Text,
     View,
 } from 'react-native';
-import PropTypes from 'proptypes';
+import PropTypes from 'prop-types';
 
 export default class Badge extends Component {
     static propTypes = {

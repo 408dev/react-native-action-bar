@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Osedea/react-native-action-bar.git"
+    "url": "git+https://github.com/408dev/react-native-action-bar.git"
   },
   "keywords": [
     "react-native",
@@ -20,9 +20,9 @@
   "author": "Adrien Thiery <adrien.thiery@osedea.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Osedea/react-native-action-bar/issues"
+    "url": "https://github.com/408dev/react-native-action-bar/issues"
   },
-  "homepage": "https://github.com/Osedea/react-native-action-bar#readme",
+  "homepage": "https://github.com/408dev/react-native-action-bar#readme",
   "dependencies": {
     "color": "~1.0.3",
     "lodash": "^4.13.1",
